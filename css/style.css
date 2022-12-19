@@ -146,16 +146,15 @@
 	line-height:1.4;
 	color:#4e4039;
 	font-weight:700;
-	position:relative;
+	
 }
 #service h2::after{
 	content:"";
-	position:absolute;
-	display:block;
-	left:40%;
 	width:4rem;
-	height:1rem;
-	border-bottom:2px solid #eb5d1e;
+	height:2px;
+	background-color:#eb5d1e;
+	display:flex;
+	margin:auto;
 }
 #service i{
 	font-size:2.7rem;
@@ -493,6 +492,12 @@
 	height:1rem;
 	border-bottom:2px solid #eb5d1e;
 }
+.brand{
+	display:flex;
+}
+.item img{
+	 width:50%;
+ }       
 /*.......................contact section .........................*/
 .contact{
 	padding-bottom:5%;
