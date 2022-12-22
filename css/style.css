@@ -27,8 +27,7 @@
 
 #caro{
 	width:100%;
-	height:100vh;
-	
+	padding:70px 0;
 	border-bottom: 2px solid #fcebe3;
 }
 #caro img{
@@ -495,9 +494,14 @@
 .brand{
 	display:flex;
 }
-.item img{
-	 width:50%;
- }       
+.item{
+	width:50%;
+	margin:auto;
+	filter:grayscale(30%);
+}      
+.item:hover{
+	filter:none;
+}
 /*.......................contact section .........................*/
 .contact{
 	padding-bottom:5%;
